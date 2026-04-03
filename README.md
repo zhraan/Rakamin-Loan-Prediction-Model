@@ -26,7 +26,7 @@ Dataset yang digunakan adalah **Lending Club Loan Data (2007–2014)** dengan ka
 | Jumlah Baris | ~466.000 data pinjaman |
 | Jumlah Kolom | 75 variabel |
 | Target Variable | `loan_status` → dikonversi menjadi label biner `loan_label` |
-| File | `loan_data_2007_2014.csv` *(tidak disertakan di repo karena ukuran >200MB)* |
+| File | `loan_data_2007_2014.csv` |
 
 ### Kolom-Kolom Utama
 
@@ -80,7 +80,7 @@ Dua algoritma yang digunakan:
 
 | Metrik | Logistic Regression | Random Forest |
 |--------|:-------------------:|:-------------:|
-| ROC-AUC | Moderat | **Lebih Tinggi** ✅ |
+| ROC-AUC | 0.6834 | **0.6855** |
 
 > **Kesimpulan:** Random Forest menunjukkan performa yang lebih baik dalam mendeteksi pinjaman bermasalah berdasarkan skor AUC-ROC.
 
@@ -130,7 +130,7 @@ Dua algoritma yang digunakan:
 
 ## 👤 Author
 
-**Zhafran** — Data Scientist Virtual Intern @ ID/X Partners × Rakamin Academy
+**Zhraan** — Data Scientist Virtual Intern @ ID/X Partners × Rakamin Academy
 
 ---
 
