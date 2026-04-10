@@ -87,15 +87,17 @@ Dua algoritma yang digunakan:
 ## 📁 Struktur File
 
 ```
-├── Final_Task_Loan_Prediction_Model (1).ipynb   # Notebook utama (lengkap dengan output)
-├── Final_Task_Loan_Prediction_Model.pdf         # Versi PDF notebook
-├── Final_Task_Loan_Prediction_Model.html        # Versi HTML notebook
+├── \Dataset    
+   ├── loan_data_2007_2014.part01.rar            # Dataset Loan loan_data_2007_2014 di-split menjadi 3  file .rar
+   ├── loan_data_2007_2014.part02.rar
+   └── loan_data_2007_2014.part03.rar
+├── Final_Task_Loan_Prediction_Model.ipynb       # Notebook utama (lengkap dengan output)
 ├── LCDataDictionary.xlsx                        # Kamus data (data dictionary)
+├── Newest_Loan_Prediction_Model.pdf             # Versi PDF notebook
 ├── Prediction Model.pdf                         # Instruksi tugas
-├── Template Final Task IDX DS.pptx              # Template presentasi
-├── loan_data_2007_2014.csv                      # Dataset (tidak di-track oleh Git)
-├── .gitignore                                   # File gitignore
-└── README.md                                    # File ini
+├── README.md                                    # File Readme Project
+├── convert_pdf.py.py                            # Convert file notebook ke format pdf
+└── final_task_loan_prediction_model.py          # Export file notebook ke format file python
 ```
 
 ## 🛠️ Teknologi yang Digunakan
@@ -121,7 +123,7 @@ Dua algoritma yang digunakan:
 
 3. **Download dataset**
    
-   Letakkan file `loan_data_2007_2014.csv` di folder root proyek.
+   Extract dataset loan_data_2007_2014.part01.rar dan letakkan file `loan_data_2007_2014.csv` di folder root proyek.
 
 4. **Jalankan notebook**
    ```bash
